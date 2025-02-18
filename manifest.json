@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Redirect Fextralife to POE2Wiki",
+  "version": "0.2",
+  "description": "Redirect from Fextralife to POE2Wiki with correct URL formatting.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://pathofexile2.wiki.fextralife.com/*",
+    "activeTab",
+    "https://*/",
+    "http://*/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
